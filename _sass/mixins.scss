@@ -1,0 +1,13 @@
+@mixin calc($prop, $exp){
+	#{$prop}: -webkit-calc(#{$exp});
+	#{$prop}: -moz-calc(#{$exp});
+	#{$prop}: calc(#{$exp});
+}
+
+@mixin transition($args...){
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}

@@ -1,0 +1,6 @@
+highlighter: pygments
+permalink: /posts/:categories/:title/
+paginate: 3
+encoding: utf-8
+sass:
+    sass_dir: _sass

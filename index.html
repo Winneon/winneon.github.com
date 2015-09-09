@@ -1,0 +1,39 @@
+---
+layout: page
+html: true
+title: recent posts
+---
+
+<link type="text/css" rel="stylesheet" href="/css/index.css">
+
+<ul class="posts">
+	{% for post in paginator.posts %}
+		<li>
+			<span>{{ post.date | date_to_long_string }}</span>
+			<h2>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</h2>
+			<h3>{{ post.subtitle }}</h3>
+			<div class="md">
+				{{ post.content | part }}
+				<p class="more">
+					<a href="{{ post.url }}">more</a>
+				</p>
+			</div>
+		</li>
+	{% endfor %}
+</ul>
+
+<div class="paginator">
+	{% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path }}">&lt;</a>
+	{% else %}
+		<span>&lt;</span>
+	{% endif %}
+	<div>{{ paginator.page }} of {{ paginator.total_pages }}</div>
+	{% if paginator.next_page %}
+		<a href="{{ paginator.next_page_path }}">&gt;</a>
+	{% else %}
+		<span>&gt;</span>
+	{% endif %}
+</div>

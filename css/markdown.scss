@@ -1,0 +1,38 @@
+---
+---
+
+@import "variables";
+
+div.content div.md {
+	margin: 20px 0px;
+	font-family: $post_font;
+	font-size: 1.15rem;
+
+	& p {
+		margin: 1rem 0px;
+		text-align: justify;
+		text-indent: 40px;
+	}
+
+	& a {
+		color: $secondary_color;
+	}
+
+	& ul,
+	& ol {
+		margin: 1rem 0px;
+		padding: 0px 40px;
+	}
+
+	& h3 {
+		margin: 0px 50px;
+		font-size: 2rem;
+		font-weight: 400;
+		font-style: italic;
+		text-align: center;
+
+		& code {
+			font-family: inherit;
+		}
+	}
+}

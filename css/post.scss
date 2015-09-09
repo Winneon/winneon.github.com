@@ -1,0 +1,32 @@
+---
+---
+
+@import "variables";
+
+div.content {
+	& > div {
+		&.post > h1 {
+			font-size: 4rem;
+			font-weight: 900;
+			line-height: 4rem;
+			letter-spacing: -0.18rem;
+
+			& > a {
+				color: $primary_color;
+			}
+		}
+
+		&.post > h2 {
+			font-size: 1.75rem;
+			font-weight: 400;
+			letter-spacing: -0.09rem;
+		}
+
+		&.post > span {
+			display: block;
+			margin: 20px 0px;
+			font-size: 0.8rem;
+			opacity: 0.5;
+		}
+	}
+}

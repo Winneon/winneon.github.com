@@ -1,0 +1,16 @@
+div.content > div.post > h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4rem;
+  letter-spacing: -0.18rem; }
+  div.content > div.post > h1 > a {
+    color: #2D2D2D; }
+div.content > div.post > h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  letter-spacing: -0.09rem; }
+div.content > div.post > span {
+  display: block;
+  margin: 20px 0px;
+  font-size: 0.8rem;
+  opacity: 0.5; }

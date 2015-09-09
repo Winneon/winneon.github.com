@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<link type="text/css" rel="stylesheet" href="/css/page.css">
+
+<div class="page">
+	<h1>{{ page.title }}</h1>
+	<div class="div"></div>
+	{% if page.html %}
+		{{ content }}
+	{% else %}
+		<div class="md">
+			{{ content }}
+		</div>
+	{% endif %}
+</div>

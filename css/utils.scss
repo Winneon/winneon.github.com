@@ -1,0 +1,15 @@
+---
+---
+
+@import "mixins";
+
+a {
+	color: inherit;
+	text-decoration: none;
+
+	@include transition(all .2s ease);
+}
+
+a:hover {
+	opacity: 0.5;
+}
