@@ -1,6 +1,6 @@
 require "jekyll"
 
-namespace :blog do
+namespace :site do
 	desc "Build Jekyll files."
 	task :build do
 		puts "\n- BUILDING JEKYLL FILES."
