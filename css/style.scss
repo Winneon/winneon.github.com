@@ -123,7 +123,6 @@ div.content {
 	padding: 50px;
 
 	& > div {
-		position: absolute;
 		width: 100%;
 		@include calc(min-height, "100% - 140px");
 		margin: 20px 0px;

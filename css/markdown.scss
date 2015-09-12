@@ -24,6 +24,12 @@ div.content div.md {
 		padding: 0px 40px;
 	}
 
+	& img {
+		display: block;
+		max-width: 100%;
+		margin: 1rem auto;
+	}
+
 	& h3 {
 		margin: 0px 50px;
 		font-size: 2rem;

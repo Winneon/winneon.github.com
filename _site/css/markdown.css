@@ -11,6 +11,10 @@ div.content div.md {
   div.content div.md ul, div.content div.md ol {
     margin: 1rem 0px;
     padding: 0px 40px; }
+  div.content div.md img {
+    display: block;
+    max-width: 100%;
+    margin: 1rem auto; }
   div.content div.md h3 {
     margin: 0px 50px;
     font-size: 2rem;
