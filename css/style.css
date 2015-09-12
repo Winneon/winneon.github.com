@@ -95,7 +95,6 @@ div.content {
   margin-left: auto;
   padding: 50px; }
   div.content > div {
-    position: absolute;
     width: 100%;
     min-height: -webkit-calc(100% - 140px);
     min-height: -moz-calc(100% - 140px);
